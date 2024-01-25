@@ -20,9 +20,12 @@ public class MyStack {
         return false;
     }
 
-    protected void push(int index) {
+    protected void push(int index)
+    {
         int size = array.length;
-        if (size - 1 == top) {
+        //Every time its getting full we enter and double the array.
+        if (size - 1 == top)
+        {
             int[] newArray = new int[0];
             //System.out.println("Stuck is full. Creating new array");
             newArray = new int[size * 2];
