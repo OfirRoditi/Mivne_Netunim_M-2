@@ -1,0 +1,25 @@
+public static void main(String[] args) {
+        MyStack f0 = new MyStack();
+        MyStack f1 = new MyStack();
+        MyStack f2 = new MyStack();
+
+        f1.push(1);
+        f1.push(66);
+        f1.push(7);
+        f2.push(8);
+        f0.push(5000);
+        f1.push(99);
+
+        HStack h1 = new HStack(f0, f1, f2);
+        reOrder(f1);
+        System.out.println(f1);
+        sort(f1);
+        System.out.println(f1);
+        numIsExists(f1, 99);
+        System.out.println(f1.toString());
+        moveLargestToTop(h1);
+        f1.toString();
+        combineAndSort(h1);
+        f0.toString();
+        f1.toString();
+        f2.toString();
