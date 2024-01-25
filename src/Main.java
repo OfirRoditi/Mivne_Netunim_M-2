@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Cool");
+        System.out.println("Cool");System.out.println("Cool");
         MyStack f0 = new MyStack();
         MyStack f1 = new MyStack();
         MyStack f2 = new MyStack();
